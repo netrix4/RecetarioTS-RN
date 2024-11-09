@@ -1,0 +1,46 @@
+{
+    "Mexican":{
+       "Title":"Mexico",
+       "Emoji":"🌮",
+       "Dishes":[
+          "Chilaquiles",
+          "Tacos",
+          "Sopes"
+       ]
+    },
+    "Italian":{
+       "Title":"Italy",
+       "Emoji":"🍝",
+       "Dishes":[
+          
+       ]
+    },
+    "Argentian":{
+       "Title":"Argentina",
+       "Emoji":"🥟",
+       "Dishes":[
+          
+       ]
+    },
+    "UnitedStatian":{
+       "Title":"United States",
+       "Emoji":"🍔🍟",
+       "Dishes":[
+          
+       ]
+    },
+    "Japanesse":{
+       "Title":"Japan",
+       "Emoji":"🍣",
+       "Dishes":[
+          
+       ]
+    },
+    "French":{
+       "Title":"France",
+       "Emoji":"🫕",
+       "Dishes":[
+          
+       ]
+    }
+ }

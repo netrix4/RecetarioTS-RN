@@ -51,21 +51,23 @@ export default function HomeScreen() {
     FetchData();
   },[])
 
+  // console.log(countriesData);
+
   return (
     <SafeAreaView>
       <StatusBar barStyle={"light-content"}></StatusBar>
       <View style={styles.mainContainer}>
-        {/* <FlatList
+        <FlatList
           style={styles.listDisplay}
           data={cousines}
           numColumns={2}
           renderItem={({ item }) => <CousineCard itemCousine={item} />}
-        /> */}
-        <FlatList
+        />
+        {/* <FlatList
           style={styles.listDisplay}
           data={countriesData}
           renderItem={itemData => <CousineCard itemCousine={itemData.item}/>}
-        />
+        /> */}
       </View>
     </SafeAreaView>
   );

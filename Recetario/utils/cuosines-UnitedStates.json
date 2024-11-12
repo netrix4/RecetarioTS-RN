@@ -1,0 +1,227 @@
+{
+  "UnitedStatian": {
+    "Title": "United States",
+    "Emoji": "🍔🍟",
+    "Dishes": [
+      {
+        "Name": "Hamburger",
+        "Image": "https://as1.ftcdn.net/v2/jpg/04/96/36/70/1000_F_496367019_IygW7s5qS3Fiu1UNY8Dl5LrGlGfSsH3Z.jpg",
+        "Ingredients": [
+          "Ground beef",
+          "Salt",
+          "Pepper",
+          "Hamburger bun",
+          "Lettuce",
+          "Tomato",
+          "Onion",
+          "Cheese"
+        ],
+        "Recipe": [
+          "1. Mix ground beef with salt and pepper to taste.",
+          "2. Shape the mixture into a burger patty.",
+          "3. Cook the burger in a skillet or on a grill over medium-high heat until the desired level of doneness.",
+          "4. Serve the burger on a hamburger bun with your favorite toppings (lettuce, tomato, onion, cheese, etc.)."
+        ]
+      },
+      {
+        "Name": "Fries",
+        "Image": "https://as2.ftcdn.net/v2/jpg/09/85/39/19/1000_F_985391943_FwbSIHJ65fqsXEsameMY4QTBxta0rjMs.jpg",
+        "Ingredients": ["Potatoes", "Oil", "Salt"],
+        "Recipe": [
+          "1. Peel and cut the potatoes into evenly sized strips.",
+          "2. Heat oil in a skillet or deep fryer to 180°C.",
+          "3. Fry the potatoes in the hot oil until golden and crispy.",
+          "4. Drain the fries on paper towels and season with salt to taste."
+        ]
+      },
+      {
+        "Name": "Pizza",
+        "Image": "https://as1.ftcdn.net/v2/jpg/09/98/12/72/1000_F_998127221_yeCYd6PSVogCPGCKjmsR9Sngsy5OYPQC.jpg",
+        "Ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Mozzarella cheese",
+          "Pepperoni",
+          "Ham",
+          "Mushrooms"
+        ],
+        "Recipe": [
+          "1. Preheat the oven to 220°C.",
+          "2. Roll out the pizza dough on a floured flat surface.",
+          "3. Top the dough with tomato sauce, mozzarella cheese, and other toppings like pepperoni, ham, or mushrooms.",
+          "4. Place the pizza in the oven and bake for 12-15 minutes or until the cheese is melted and the crust is golden."
+        ]
+      },
+      {
+        "Name": "Hot Dog",
+        "Image": "https://as2.ftcdn.net/v2/jpg/08/49/44/13/1000_F_849441346_FSOKIXhzAtUy5PNaG320hWY48zD8hHLg.jpg",
+        "Ingredients": [
+          "Sausages",
+          "Hot dog bun",
+          "Mustard",
+          "Ketchup",
+          "Onions"
+        ],
+        "Recipe": [
+          "1. Cook the sausages in hot water or on a grill.",
+          "2. Place the cooked sausages inside a hot dog bun.",
+          "3. Add mustard, ketchup, onions, or any other sauce or condiment of your choice."
+        ]
+      },
+      {
+        "Name": "Cheeseburger",
+        "Image": "https://as1.ftcdn.net/v2/jpg/05/60/62/88/1000_F_560628815_qN06tWO54ejWiFs9f9zykPmfCnjjkC0g.jpg",
+        "Ingredients": [
+          "Ground beef",
+          "Salt",
+          "Pepper",
+          "Cheddar cheese",
+          "Hamburger bun",
+          "Lettuce",
+          "Tomato",
+          "Onion",
+          "Condiments"
+        ],
+        "Recipe": [
+          "1. Shape ground beef into a patty and season with salt and pepper.",
+          "2. Cook the burger in a skillet or on a grill over medium-high heat.",
+          "3. Add a slice of cheddar cheese on top of the meat when it is almost done, allowing it to melt.",
+          "4. Serve the burger on a hamburger bun with lettuce, tomato, onion, and your choice of condiments."
+        ]
+      },
+      {
+        "Name": "Mac and Cheese",
+        "Image": "https://as1.ftcdn.net/v2/jpg/09/34/92/50/1000_F_934925060_4E6VfLwRM0O7u4fC3KNiTSVlqUXPywvg.jpg",
+        "Ingredients": [
+          "Pasta",
+          "Butter",
+          "Flour",
+          "Milk",
+          "Cheddar cheese",
+          "Salt",
+          "Pepper"
+        ],
+        "Recipe": [
+          "1. Cook the pasta according to the package instructions.",
+          "2. Meanwhile, melt butter in a large skillet and add flour to make a roux.",
+          "3. Gradually add milk to the skillet, whisking constantly until the sauce thickens.",
+          "4. Stir in shredded cheddar cheese and mix until melted.",
+          "5. Add the cooked pasta and mix well until it is fully coated with the cheese sauce."
+        ]
+      },
+      {
+        "Name": "Fried Chicken",
+        "Image": "https://as2.ftcdn.net/v2/jpg/09/90/10/83/1000_F_990108300_qKWLKusox3oe3mED8Wko8COxRSGk1lu7.jpg",
+        "Ingredients": [
+          "Chicken pieces",
+          "Salt",
+          "Pepper",
+          "Spices",
+          "Flour",
+          "Oil"
+        ],
+        "Recipe": [
+          "1. Season chicken pieces with salt, pepper, and other spices to taste.",
+          "2. Dredge the chicken in seasoned flour, ensuring it is well-coated.",
+          "3. Heat oil in a deep skillet to 180°C.",
+          "4. Fry the chicken in the hot oil until golden and crispy on the outside and cooked through on the inside.",
+          "5. Drain the chicken on paper towels before serving."
+        ]
+      },
+      {
+        "Name": "Pancakes",
+        "Image": "https://as1.ftcdn.net/v2/jpg/08/28/75/70/1000_F_828757015_5nZi7cXoK0h4MrzQOjginYgtCkNpBjX2.jpg",
+        "Ingredients": [
+          "Flour",
+          "Baking powder",
+          "Sugar",
+          "Milk",
+          "Egg",
+          "Butter",
+          "Maple syrup",
+          "Fruit",
+          "Whipped cream"
+        ],
+        "Recipe": [
+          "1. In a bowl, mix flour, baking powder, sugar, milk, egg, and melted butter until smooth.",
+          "2. Heat a non-stick skillet over medium heat and grease it with a little butter or oil.",
+          "3. Pour small amounts of batter onto the hot skillet.",
+          "4. Cook each pancake until bubbles appear on the surface, then flip and cook the other side until golden.",
+          "5. Serve with maple syrup, fruit, or whipped cream."
+        ]
+      },
+      {
+        "Name": "Waffles",
+        "Image": "https://as2.ftcdn.net/v2/jpg/10/04/01/19/1000_F_1004011956_7YROotlMIO65WSWcwH0iFh4LvJO4PqhZ.jpg",
+        "Ingredients": [
+          "Flour",
+          "Baking powder",
+          "Sugar",
+          "Egg",
+          "Milk",
+          "Butter",
+          "Maple syrup",
+          "Fruit",
+          "Whipped cream"
+        ],
+        "Recipe": [
+          "1. Mix flour, baking powder, sugar, egg, milk, and melted butter in a bowl until smooth.",
+          "2. Preheat a waffle iron and grease it with a little oil or butter.",
+          "3. Pour the batter into the waffle iron and cook according to the device's instructions, until the waffles are golden and crispy.",
+          "4. Serve with fruit, maple syrup, or whipped cream."
+        ]
+      },
+      {
+        "Name": "Donuts",
+        "Image": "https://as1.ftcdn.net/v2/jpg/08/15/53/20/1000_F_815532071_N11sYAvOBTKTStiO6mlPVf7hrJ8pX2zQ.jpg",
+        "Ingredients": [
+          "Flour",
+          "Sugar",
+          "Yeast",
+          "Warm milk",
+          "Egg",
+          "Butter",
+          "Glaze",
+          "Powdered sugar"
+        ],
+        "Recipe": [
+          "1. Mix flour, sugar, yeast, warm milk, egg, and melted butter in a bowl.",
+          "2. Knead until smooth and let the dough rise for 1 hour.",
+          "3. Roll out the dough and cut it with a donut cutter.",
+          "4. Fry the donuts in hot oil until golden on the outside."
+        ]
+      }
+    ],
+    "Typical_Meal_Time": "6:00 PM - 8:00 PM",
+    "Popular_Ingredients": [
+      "Ground beef",
+      "Potatoes",
+      "Mozzarella cheese",
+      "Tomato sauce",
+      "Hamburger bun",
+      "Sausages",
+      "Flour",
+      "Milk",
+      "Egg",
+      "Butter",
+      "Sugar",
+      "Baking powder",
+      "Cream",
+      "Vanilla",
+      "Chocolate chips",
+      "Cocoa powder",
+      "Apples",
+      "Clams",
+      "Lobster",
+      "Barbecue sauce",
+      "Potatoes",
+      "Onion",
+      "Tomato",
+      "Chives",
+      "Paprika",
+      "Salt",
+      "Pepper",
+      "Oil"
+    ]
+  }
+}

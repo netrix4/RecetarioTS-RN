@@ -4,15 +4,15 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { getRandomColor } from "@/utils/utils";
 
 interface IProps {
-  // itemCousine: {
-  //   Title: string;
-  //   Emoji: string;
-  //   Dishes: string[];
-  // };
   itemCousine: {
-    key: string;
-    info: any;
+    Title: string;
+    Emoji: string;
+    Dishes: string[];
   };
+  // itemCousine: {
+  //   key: string;
+  //   info: any;
+  // };
 }
 
 const CousineCard: React.FC<IProps> = ({ itemCousine }) => {
@@ -40,10 +40,12 @@ const CousineCard: React.FC<IProps> = ({ itemCousine }) => {
 
 
 
-      {/* <Text style={styles.cardTitle}>{itemCousine.Title}</Text>
-      <Text style={styles.cardParraph}>{itemCousine.Emoji}</Text> */}
+      <Text style={styles.cardTitle}>{itemCousine.Title}</Text>
+      <Text style={styles.cardParraph}>{itemCousine.Emoji}</Text>
 
-      <Text style={styles.cardTitle}>{itemCousine.key}</Text>
+      {/* <Text style={styles.cardTitle}>{itemCousine.key}</Text> */}
+
+
     </TouchableOpacity>
   );
 };

@@ -34,9 +34,9 @@ const DishesMenu = () => {
 
 
 
-  const {info} = useLocalSearchParams();
-  const dataJson = Array.isArray(info)? info[0]:info;
-  const parsedData = JSON.parse(dataJson);
+  // const {info} = useLocalSearchParams();
+  // const dataJson = Array.isArray(info)? info[0]:info;
+  // const parsedData = JSON.parse(dataJson);
 
 
   const showModal = () => {

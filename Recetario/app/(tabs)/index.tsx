@@ -42,7 +42,8 @@ export default function HomeScreen() {
 
   useEffect(()=>{
     const FetchData = () => {
-      const cousines2 = require('@/utils/cuosines.json');
+      // const cousines2 = require('@/utils/cuosines.json');
+      const cousines2 = require('@/utils/Cousines.json');
       setCountriesData(
         Object.keys(cousines2).map((key) => ({ key: key, info: cousines2[key] }))
       );
@@ -52,6 +53,7 @@ export default function HomeScreen() {
   },[])
 
   // console.log(countriesData);
+  // console.log(countriesData[1]);
 
   return (
     <SafeAreaView>
@@ -59,7 +61,7 @@ export default function HomeScreen() {
       <View style={styles.mainContainer}>
         <FlatList
           style={styles.listDisplay}
-          data={cousines}
+          data={countriesData}
           numColumns={2}
           renderItem={({ item }) => <CousineCard itemCousine={item} />}
         />

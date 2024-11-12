@@ -5,7 +5,11 @@ import { StyleSheet, Text, TouchableOpacity } from "react-native";
 interface IPropsDish {
   itemDish: {
     Name: string;
-    ElaborationTime: string;
+    Image: string;
+    // Ingredients: string,
+    // Ingredients: string[],
+    Ingredients: any;
+    Recipe: string;
   };
   onDishPress: () => void;
 }
@@ -17,7 +21,7 @@ export const Dish: React.FC<IPropsDish> = ({ itemDish, onDishPress }) => {
       style={[styles.dishContainer, { backgroundColor: getRandomColor() }]}
     >
       <Text style={styles.dishName}>{itemDish.Name}</Text>
-      <Text style={styles.dishTime}>{itemDish.ElaborationTime}</Text>
+      <Text style={styles.dishTime}>Tap to see</Text>
     </TouchableOpacity>
   );
 };

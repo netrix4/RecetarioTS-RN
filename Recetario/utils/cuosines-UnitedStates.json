@@ -190,6 +190,169 @@
           "3. Roll out the dough and cut it with a donut cutter.",
           "4. Fry the donuts in hot oil until golden on the outside."
         ]
+      },
+      {
+        "Name": "Apple Pie",
+        "Image": "https://as1.ftcdn.net/v2/jpg/09/30/96/64/1000_F_930966489_p2OInfBhJz5AtqVwJmIauHojbGO195ZN.jpg",
+        "Ingredients": [
+          "Apples",
+          "Flour",
+          "Sugar",
+          "Butter",
+          "Cinnamon",
+          "Salt",
+          "Egg",
+          "Lemon juice"
+        ],
+        "Recipe": [
+          "1. Preheat oven to 375°F (190°C).",
+          "2. Peel and slice apples, then mix with sugar, cinnamon, and lemon juice.",
+          "3. Roll out pie dough and place in pie dish.",
+          "4. Add apple mixture into crust, dot with butter.",
+          "5. Cover with top crust, seal edges, and make slits.",
+          "6. Bake for 50-60 minutes until golden."
+        ]
+      },
+      {
+        "Name": "Chocolate Chip Cookies",
+        "Image": "https://as1.ftcdn.net/v2/jpg/08/92/02/40/1000_F_892024007_TM8IKRKuWpmphiUt8TGQ1zLYRUmjmCWT.jpg",
+        "Ingredients": [
+          "Flour",
+          "Sugar",
+          "Brown sugar",
+          "Butter",
+          "Vanilla extract",
+          "Egg",
+          "Baking soda",
+          "Salt",
+          "Chocolate chips"
+        ],
+        "Recipe": [
+          "1. Preheat oven to 350°F (175°C).",
+          "2. Cream together butter, brown sugar, and sugar.",
+          "3. Add vanilla extract and egg; mix well.",
+          "4. Stir in flour, baking soda, and salt.",
+          "5. Fold in chocolate chips.",
+          "6. Drop by spoonfuls onto a baking sheet and bake for 10-12 minutes."
+        ]
+      },
+      {
+        "Name": "Brownies",
+        "Image": "https://as2.ftcdn.net/v2/jpg/10/37/36/73/1000_F_1037367336_aPAJlCpdWhmNS0AoDy8FPuO9G7YwkjQ5.jpg",
+        "Ingredients": [
+          "Butter",
+          "Sugar",
+          "Eggs",
+          "Vanilla extract",
+          "Cocoa powder",
+          "Flour",
+          "Salt",
+          "Baking powder"
+        ],
+        "Recipe": [
+          "1. Preheat oven to 350°F (175°C) and grease a baking pan.",
+          "2. Melt butter and mix with sugar.",
+          "3. Add eggs and vanilla extract.",
+          "4. Stir in cocoa powder, flour, salt, and baking powder.",
+          "5. Pour into the pan and bake for 20-25 minutes."
+        ]
+      },
+      {
+        "Name": "Ice Cream",
+        "Image": "https://as1.ftcdn.net/v2/jpg/02/27/52/46/1000_F_227524631_UUS2vVtNLbHgUVywuKS1llUFJGUi5LWQ.jpg",
+        "Ingredients": [
+          "Heavy cream",
+          "Milk",
+          "Sugar",
+          "Vanilla extract",
+          "Salt"
+        ],
+        "Recipe": [
+          "1. Mix heavy cream, milk, sugar, vanilla extract, and a pinch of salt in a bowl.",
+          "2. Pour mixture into an ice cream maker.",
+          "3. Churn according to the manufacturer's instructions until thickened.",
+          "4. Freeze for a few hours before serving."
+        ]
+      },
+      {
+        "Name": "Clam Chowder",
+        "Image": "https://as1.ftcdn.net/v2/jpg/10/54/65/44/1000_F_1054654443_AoEN5fSYHvUABAEcWEcntA9raEFYnpCu.jpg",
+        "Ingredients": [
+          "Clams",
+          "Bacon",
+          "Onion",
+          "Potatoes",
+          "Celery",
+          "Milk",
+          "Cream",
+          "Butter",
+          "Flour",
+          "Salt",
+          "Pepper"
+        ],
+        "Recipe": [
+          "1. Cook bacon in a pot until crispy; remove and set aside.",
+          "2. Sauté onion and celery in the bacon fat.",
+          "3. Add butter and flour to make a roux.",
+          "4. Pour in milk and cream, stirring to thicken.",
+          "5. Add diced potatoes and simmer until tender.",
+          "6. Add clams, salt, and pepper, and cook until clams are done."
+        ]
+      },
+      {
+        "Name": "Lobster Roll",
+        "Image": "https://as1.ftcdn.net/v2/jpg/08/49/83/82/1000_F_849838234_mCMvKMntnjZ5nxhjREluK4aWt8EQVItR.jpg",
+        "Ingredients": [
+          "Lobster meat",
+          "Mayonnaise",
+          "Celery",
+          "Lemon juice",
+          "Salt",
+          "Pepper",
+          "Butter",
+          "Hot dog buns"
+        ],
+        "Recipe": [
+          "1. Mix lobster meat with mayonnaise, celery, lemon juice, salt, and pepper.",
+          "2. Toast hot dog buns with butter.",
+          "3. Fill buns with lobster mixture and serve."
+        ]
+      },
+      {
+        "Name": "BBQ Ribs",
+        "Image": "https://as2.ftcdn.net/v2/jpg/10/43/89/65/1000_F_1043896593_12oNTMKCiyzQCVdt81NE8PEjp8zpz42z.jpg",
+        "Ingredients": [
+          "Pork ribs",
+          "Salt",
+          "Pepper",
+          "Paprika",
+          "Garlic powder",
+          "BBQ sauce"
+        ],
+        "Recipe": [
+          "1. Preheat oven to 300°F (150°C).",
+          "2. Rub ribs with salt, pepper, paprika, and garlic powder.",
+          "3. Wrap ribs in foil and bake for 2.5-3 hours.",
+          "4. Unwrap ribs, brush with BBQ sauce, and broil for 5-10 minutes."
+        ]
+      },
+      {
+        "Name": "Steak",
+        "Image": "https://as1.ftcdn.net/v2/jpg/09/18/04/68/1000_F_918046889_wG2kSeGkJlDJK929FFSIKf8dseDpSxlz.jpg",
+        "Ingredients": [
+          "Steak (ribeye, sirloin, etc.)",
+          "Salt",
+          "Pepper",
+          "Butter",
+          "Garlic",
+          "Rosemary"
+        ],
+        "Recipe": [
+          "1. Season steak with salt and pepper.",
+          "2. Heat a skillet with butter, garlic, and rosemary.",
+          "3. Sear steak on both sides until desired doneness.",
+          "4. Let rest for a few minutes before serving."
+        ]
       }
     ],
     "Typical_Meal_Time": "6:00 PM - 8:00 PM",

@@ -3,7 +3,6 @@ import { RecepieModal } from "@/components/RecepieModal";
 import { useLocalSearchParams } from "expo-router";
 import React, { useState } from "react";
 import { SafeAreaView, Text, StyleSheet, View, FlatList } from "react-native";
-import { SafeAreaConsumer } from "react-native-safe-area-context";
 
 const typicalDishes = [
   {
@@ -28,7 +27,18 @@ const typicalDishes = [
   },
 ];
 
-const DishesMenu = () => {
+interface IMenuProps {
+  // itemCousine: {
+  //   Title: string;
+  //   Emoji: string;
+  //   Dishes: string[];
+  // };
+  itemDishes: {
+    info: any;
+  };
+}
+
+const DishesMenu: React.FC<IMenuProps> = ({ itemDishes }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
 
@@ -46,6 +56,8 @@ const DishesMenu = () => {
     setIsModalVisible(false);
   };
 
+  console.log('Dentro de disehsmenu',itemDishes);
+
   return (
     <SafeAreaView>
       <View style={styles.mainContainer}>
@@ -53,7 +65,7 @@ const DishesMenu = () => {
         <View style={styles.dishesContainer}>
           <FlatList
             style={styles.listDisplay}
-            data={typicalDishes}
+            data={itemDishes.info}
             renderItem={(item) => (
               <Dish itemDish={item.item} onDishPress={showModal} />
               // <Dish itemDish={parsedData} onDishPress={showModal} />

@@ -2,78 +2,56 @@ import { Dish } from "@/components/Dish";
 import { RecepieModal } from "@/components/RecepieModal";
 import { useLocalSearchParams } from "expo-router";
 import React, { useState } from "react";
+import { useRoute } from "@react-navigation/native";
+
 import { SafeAreaView, Text, StyleSheet, View, FlatList } from "react-native";
 
-const typicalDishes = [
-  {
-    Name: "Tacos",
-    ElaborationTime: "45min",
-  },
-  {
-    Name: "Burritos",
-    ElaborationTime: "35min",
-  },
-  {
-    Name: "Sopes",
-    ElaborationTime: "15min",
-  },
-  {
-    Name: "Quesadillas",
-    ElaborationTime: "5min",
-  },
-  {
-    Name: "Cochinita Pibil",
-    ElaborationTime: "75min",
-  },
-];
+interface IDish {
+  
+  Name: string;
+  Image: string;
+  Ingredients: string[];
+  Recipe: string[];
+}
 
 interface IMenuProps {
-  // itemCousine: {
-  //   Title: string;
-  //   Emoji: string;
-  //   Dishes: string[];
-  // };
-  itemDishes: {
-    info: any;
-  };
+  itemDishes?: {
+    jsonStringified: string;
+  }[];
 }
 
 const DishesMenu: React.FC<IMenuProps> = ({ itemDishes }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [selectedDish, setSelecetedDish] = useState<IDish>({Name:"",Image:"",Ingredients:[""], Recipe:[""]});
 
+  const route = useRoute();
+  const { typicalDishes } = route.params || Array<IDish>();
 
-
-
-  // const {info} = useLocalSearchParams();
-  // const dataJson = Array.isArray(info)? info[0]:info;
-  // const parsedData = JSON.parse(dataJson);
-
-
-  const showModal = () => {
+  const showModal = (dish:IDish) => () => {
     setIsModalVisible(true);
+    setSelecetedDish(dish);
   };
   const onHidePress = () => {
     setIsModalVisible(false);
   };
 
-  console.log('Dentro de disehsmenu',itemDishes);
-
   return (
     <SafeAreaView>
       <View style={styles.mainContainer}>
-        <Text style={styles.dishesMenuTitle}>Typical country title</Text>
+        <Text style={styles.dishesMenuTitle}>Typical Meals Per Country</Text>
         <View style={styles.dishesContainer}>
           <FlatList
             style={styles.listDisplay}
-            data={itemDishes.info}
-            renderItem={(item) => (
-              <Dish itemDish={item.item} onDishPress={showModal} />
+            data={typicalDishes}
+            renderItem={({ item }) => (
+              <Dish itemDish={item} onDishPress={showModal(item)} />
               // <Dish itemDish={parsedData} onDishPress={showModal} />
             )}
           />
           <RecepieModal
             isModalVisible={isModalVisible}
             onHidePress={onHidePress}
+            singleDish={selectedDish}
           />
         </View>
       </View>

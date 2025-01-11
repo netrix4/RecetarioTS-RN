@@ -387,116 +387,292 @@
       {
         "Name": "Pasta",
         "Image": "https://media.istockphoto.com/id/1220762221/es/foto/pasta-penne-con-salsa-de-tomate-albahaca-fresca-tomates-asados-y-parmesano-sobre-el-fondo.jpg?s=1024x1024&w=is&k=20&c=WdX1RwYXrLqOpwFf1Z27A5RQ9LNn_lXEBDoCtZjmK4A=",
-        "Ingredients": "Flour, eggs, salt, water.",
-        "recete": "Mix flour, eggs, and a pinch of salt to make a dough. Roll it out and cut into desired shapes (spaghetti, fettuccine, etc.). Boil in salted water until al dente and serve with sauce of choice."
+        "Ingredients": ["Flour", "Eggs", "Salt", "Water"],
+        "Recipe": [
+          "Mix flour, eggs, and a pinch of salt to make a dough.",
+          "Roll it out and cut into desired shapes (spaghetti, fettuccine, etc.).",
+          "Boil in salted water until al dente and serve with sauce of choice."
+        ]
       },
       {
         "Name": "Pizza",
         "Image": "https://Images.pexels.com/photos/13730502/pexels-photo-13730502.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Flour, water, yeast, salt, olive oil, tomato sauce, mozzarella, basil.",
-        "recete": "For the dough, mix flour, water, yeast, salt, and some olive oil. Let the dough rise until it doubles in size. Roll out the dough, add tomato sauce, mozzarella, and basil. Bake at 220°C for 10-15 minutes."
+        "Ingredients": [
+          "Flour",
+          "Water",
+          "Yeast",
+          "Salt",
+          "Olive oil",
+          "Tomato sauce",
+          "Mozzarella",
+          "Basil"
+        ],
+        "Recipe": [
+          "For the dough, mix flour, water, yeast, salt, and some olive oil.",
+          "Let the dough rise until it doubles in size.",
+          "Roll out the dough, add tomato sauce, mozzarella, and basil.",
+          "Bake at 220°C for 10-15 minutes."
+        ]
       },
       {
         "Name": "Ravioli",
         "Image": "https://media.istockphoto.com/id/1439776229/es/foto/raviolis-caseros-de-espinacas-y-ricotta-con-salsa-de-tomate-y-parmesano-primer-plano.jpg?s=1024x1024&w=is&k=20&c=xDxSjsK7OypAJYeP0SzJEhT04m4l3eOvOCVFJm-1k_s=",
-        "Ingredients": "Flour, eggs, ricotta cheese, spinach, salt, pepper, olive oil.",
-        "recete": "For the pasta, mix flour and eggs until smooth dough forms. Fill with a mixture of ricotta and spinach. Cook in boiling water and serve with your favorite sauce."
+        "Ingredients": [
+          "Flour",
+          "Eggs",
+          "Ricotta cheese",
+          "Spinach",
+          "Salt",
+          "Pepper",
+          "Olive oil"
+        ],
+        "Recipe": [
+          "For the pasta, mix flour and eggs until smooth dough forms.",
+          "Fill with a mixture of ricotta and spinach.",
+          "Cook in boiling water and serve with your favorite sauce."
+        ]
       },
       {
         "Name": "Lasagna",
         "Image": "https://Images.pexels.com/photos/29174061/pexels-photo-29174061/free-photo-of-deliciosa-lasana-italiana-con-albahaca-fresca.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "Ingredients": "Lasagna sheets, ground meat, tomato sauce, onion, garlic, mozzarella cheese, parmesan cheese, bechamel sauce.",
-        "recete": "Sauté meat with onion and garlic, add tomato sauce. Layer pasta, meat, and bechamel in a dish, top with cheese. Bake at 180°C for 30-40 minutes."
+        "Ingredients": [
+          "Lasagna sheets",
+          "Ground meat",
+          "Tomato sauce",
+          "Onion",
+          "Garlic",
+          "Mozzarella cheese",
+          "Parmesan cheese",
+          "Bechamel sauce"
+        ],
+        "Recipe": [
+          "Sauté meat with onion and garlic, add tomato sauce.",
+          "Layer pasta, meat, and bechamel in a dish, top with cheese.",
+          "Bake at 180°C for 30-40 minutes."
+        ]
       },
       {
         "Name": "Spaghetti alla Carbonara",
         "Image": "https://Images.pexels.com/photos/18315986/pexels-photo-18315986/free-photo-of-espaguetis-es-armonia.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Spaghetti, eggs, pancetta, pecorino cheese, black pepper.",
-        "recete": "Cook the pasta. Sauté the pancetta until crispy. Mix eggs with grated cheese and pepper. Toss the egg mixture with hot pasta and pancetta quickly."
+        "Ingredients": [
+          "Spaghetti",
+          "Eggs",
+          "Pancetta",
+          "Pecorino cheese",
+          "Black pepper"
+        ],
+        "Recipe": [
+          "Cook the pasta.",
+          "Sauté the pancetta until crispy.",
+          "Mix eggs with grated cheese and pepper.",
+          "Toss the egg mixture with hot pasta and pancetta quickly."
+        ]
       },
       {
         "Name": "Risotto",
         "Image": "https://Images.pexels.com/photos/10766728/pexels-photo-10766728.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Arborio rice, broth, white wine, onion, parmesan cheese, butter.",
-        "recete": "Sauté onion in butter, add rice and wine, and cook on low heat, adding broth gradually. When rice is creamy, add parmesan cheese."
+        "Ingredients": [
+          "Arborio rice",
+          "Broth",
+          "White wine",
+          "Onion",
+          "Parmesan cheese",
+          "Butter"
+        ],
+        "Recipe": [
+          "Sauté onion in butter.",
+          "Add rice and wine, and cook on low heat, adding broth gradually.",
+          "When rice is creamy, add parmesan cheese."
+        ]
       },
       {
         "Name": "Polenta",
         "Image": "https://imgs.search.brave.com/KH28RmU-8TWqph08BpR32c9vcSt_BWgdSfDgFb2zi4c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9nb2x1YnRzeS13/aXRoLXNpZGUtcG9s/ZW50YV8xMTE0NzEw/LTI2ODU5My5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw",
-        "Ingredients": "Cornmeal, water, salt, butter, parmesan cheese.",
-        "recete": "Boil water with salt, add cornmeal slowly, and cook on low heat, stirring. Add butter and cheese at the end."
+        "Ingredients": [
+          "Cornmeal",
+          "Water",
+          "Salt",
+          "Butter",
+          "Parmesan cheese"
+        ],
+        "Recipe": [
+          "Boil water with salt.",
+          "Add cornmeal slowly, and cook on low heat, stirring.",
+          "Add butter and cheese at the end."
+        ]
       },
       {
         "Name": "Ossobuco",
         "Image": "https://imgs.search.brave.com/0MGBdv51czFSJ0v7lHZKE2OSUJeYJGrod2966VE9UVQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmJs/b2dzLmVzL2UwNmY4/Ny82NTBfMTAwMF9v/c3NvYnVjby1lbmNl/Ym9sbGFkby1wYXNv/LWEtcGFzby8zNzVf/Mzc1LmpwZw",
-        "Ingredients": "Veal shank, white wine, broth, carrots, celery, onion, tomato, garlic, parsley.",
-        "recete": "Brown the meat and set aside. Sauté the vegetables, add wine, return meat, and cook on low heat with broth until tender."
+        "Ingredients": [
+          "Veal shank",
+          "White wine",
+          "Broth",
+          "Carrots",
+          "Celery",
+          "Onion",
+          "Tomato",
+          "Garlic",
+          "Parsley"
+        ],
+        "Recipe": [
+          "Brown the meat and set aside.",
+          "Sauté the vegetables, add wine, return meat, and cook on low heat with broth until tender."
+        ]
       },
       {
         "Name": "Arancini",
         "Image": "https://Images.pexels.com/photos/1765012/pexels-photo-1765012.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Rice, mozzarella cheese, tomato sauce, breadcrumbs, egg, oil for frying.",
-        "recete": "Form rice balls with cheese in the center. Coat with egg and breadcrumbs, and fry until golden."
+        "Ingredients": [
+          "Rice",
+          "Mozzarella cheese",
+          "Tomato sauce",
+          "Breadcrumbs",
+          "Egg",
+          "Oil for frying"
+        ],
+        "Recipe": [
+          "Form rice balls with cheese in the center.",
+          "Coat with egg and breadcrumbs.",
+          "Fry until golden."
+        ]
       },
       {
         "Name": "Gnocchi",
         "Image": "https://imgs.search.brave.com/BUcX3W-ndsVANKmVmlef817e2SK4TKJDkTDnfFUEfqw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA5LzYwLzQ5Lzgx/LzM2MF9GXzk2MDQ5/ODE0OF9PMUZaSkZv/MWhLZGxkR3I4SFVs/NWxUUE9rM3RUOWtM/Yy5qcGc",
-        "Ingredients": "Potatoes, flour, egg, salt.",
-        "recete": "Boil potatoes and mash. Mix with flour and egg to form a dough, cut into small pieces and cook in boiling water until they float."
+        "Ingredients": ["Potatoes", "Flour", "Egg", "Salt"],
+        "Recipe": [
+          "Boil potatoes and mash.",
+          "Mix with flour and egg to form a dough.",
+          "Cut into small pieces and cook in boiling water until they float."
+        ]
       },
       {
         "Name": "Focaccia",
         "Image": "https://imgs.search.brave.com/_sowsG65ubuE-QIqIlaJmEk97655PyLMu56J7B_lwOc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudG1lY29zeXMu/Y29tL2ltYWdlL3Vw/bG9hZC90X3dlYjc2/N3g2MzkvaW1nL3Jl/Y2lwZS9yYXMvQXNz/ZXRzL0NCNkM0MzhC/LTMxRDAtNEM0Ni05/OENBLUJCMDNBN0Y0/NDI3Qi9EZXJpdmF0/ZXMvZDNiMGY5N2Yt/YWQyZi00NGZhLTg2/OTAtNWExMzZiNmVk/NGE0LmpwZw",
-        "Ingredients": "Flour, water, yeast, salt, olive oil, rosemary.",
-        "recete": "Mix Ingredients and let dough rise. Spread on a baking tray, sprinkle with rosemary, and bake at 220°C for 20 minutes."
+        "Ingredients": [
+          "Flour",
+          "Water",
+          "Yeast",
+          "Salt",
+          "Olive oil",
+          "Rosemary"
+        ],
+        "Recipe": [
+          "Mix Ingredients and let dough rise.",
+          "Spread on a baking tray, sprinkle with rosemary.",
+          "Bake at 220°C for 20 minutes."
+        ]
       },
       {
         "Name": "Calzone",
         "Image": "https://Images.pexels.com/photos/5903094/pexels-photo-5903094.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Pizza dough, tomato, mozzarella, ham, ricotta.",
-        "recete": "Fill the dough with Ingredients, fold and seal edges. Bake at 200°C until golden."
+        "Ingredients": [
+          "Pizza dough",
+          "Tomato",
+          "Mozzarella",
+          "Ham",
+          "Ricotta"
+        ],
+        "Recipe": [
+          "Fill the dough with Ingredients.",
+          "Fold and seal edges.",
+          "Bake at 200°C until golden."
+        ]
       },
       {
         "Name": "Panzanella",
         "Image": "https://imgs.search.brave.com/K3NZSaq6xWf1MH55i8F7TmH054uSsycvrqJMPy-qZaY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVjZXRhc2RlcmVj/aHVwZXRlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNC8w/MS9QYW56YW5lbGxh/LWl0YWxpYW5hLTIt/MTIwMHg4MjguanBn",
-        "Ingredients": "Bread, tomato, cucumber, onion, basil, olive oil, vinegar.",
-        "recete": "Soak the bread in water, squeeze and mix with tomato, cucumber, onion, and basil. Dress with oil and vinegar."
+        "Ingredients": [
+          "Bread",
+          "Tomato",
+          "Cucumber",
+          "Onion",
+          "Basil",
+          "Olive oil",
+          "Vinegar"
+        ],
+        "Recipe": [
+          "Soak the bread in water, squeeze and mix with tomato, cucumber, onion, and basil.",
+          "Dress with oil and vinegar."
+        ]
       },
       {
         "Name": "Bruschetta",
         "Image": "https://Images.pexels.com/photos/23886749/pexels-photo-23886749/free-photo-of-uno.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Bread, tomato, garlic, basil, olive oil.",
-        "recete": "Toast bread, rub with garlic and top with diced tomato, basil, and a drizzle of olive oil."
+        "Ingredients": ["Bread", "Tomato", "Garlic", "Basil", "Olive oil"],
+        "Recipe": [
+          "Toast bread.",
+          "Rub with garlic and top with diced tomato, basil, and a drizzle of olive oil."
+        ]
       },
       {
         "Name": "Caprese Salad",
         "Image": "https://imgs.search.brave.com/02oXMJoA94Wcidu99HS1My8D0KHVBQyEpXLW_P4rMjo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG92ZWFuZGxlbW9u/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTkvMDgvY2Fw/cmVzZS1zYWxhZC1y/ZWNpcGUuanBn",
-        "Ingredients": "Tomato, mozzarella, basil, olive oil, salt.",
-        "recete": "Alternate slices of tomato and mozzarella, add basil, and drizzle with oil and salt."
+        "Ingredients": ["Tomato", "Mozzarella", "Basil", "Olive oil", "Salt"],
+        "Recipe": [
+          "Alternate slices of tomato and mozzarella.",
+          "Add basil, and drizzle with oil and salt."
+        ]
       },
       {
         "Name": "Tiramisu",
         "Image": "https://Images.pexels.com/photos/18454368/pexels-photo-18454368/free-photo-of-cafe-postre-pastel-crema.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Coffee, ladyfingers, mascarpone, eggs, sugar, cocoa powder.",
-        "recete": "Dip ladyfingers in coffee, layer with mascarpone, egg, and sugar mixture. Top with cocoa powder and refrigerate."
+        "Ingredients": [
+          "Coffee",
+          "Ladyfingers",
+          "Mascarpone",
+          "Eggs",
+          "Sugar",
+          "Cocoa powder"
+        ],
+        "Recipe": [
+          "Dip ladyfingers in coffee.",
+          "Layer with mascarpone, egg, and sugar mixture.",
+          "Top with cocoa powder and refrigerate."
+        ]
       },
       {
         "Name": "Panna Cotta",
         "Image": "https://Images.pexels.com/photos/14732341/pexels-photo-14732341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "Ingredients": "Cream, sugar, vanilla, gelatin.",
-        "recete": "Heat cream with sugar and vanilla. Dissolve gelatin and mix well. Refrigerate until set."
+        "Ingredients": ["Cream", "Sugar", "Vanilla", "Gelatin"],
+        "Recipe": [
+          "Heat cream with sugar and vanilla.",
+          "Dissolve gelatin and mix well.",
+          "Refrigerate until set."
+        ]
       },
       {
         "Name": "Cannoli",
         "Image": "https://Images.pexels.com/photos/10134729/pexels-photo-10134729.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Flour, sugar, ricotta, cinnamon, chocolate, candied fruit.",
-        "recete": "Form tubes from dough and fry. Fill with sweetened ricotta, cinnamon, chocolate chunks, and candied fruit."
+        "Ingredients": [
+          "Flour",
+          "Sugar",
+          "Ricotta",
+          "Cinnamon",
+          "Chocolate",
+          "Candied fruit"
+        ],
+        "Recipe": [
+          "Form tubes from dough and fry.",
+          "Fill with sweetened ricotta, cinnamon, chocolate chunks, and candied fruit."
+        ]
       },
       {
         "Name": "Gelato",
         "Image": "https://Images.pexels.com/photos/23884580/pexels-photo-23884580/free-photo-of-manos-dulce-sujetando-fotografia-de-comida.png?auto=compress&cs=tinysrgb&w=600",
-        "Ingredients": "Milk, cream, sugar, egg yolk, flavoring (chocolate, vanilla, etc.).",
-        "recete": "Mix milk, cream, and sugar; heat. Add egg yolk and flavoring, and freeze while stirring constantly."
+        "Ingredients": [
+          "Milk",
+          "Cream",
+          "Sugar",
+          "Egg yolk",
+          "Flavoring (chocolate, vanilla, etc.)"
+        ],
+        "Recipe": [
+          "Mix milk, cream, and sugar; heat.",
+          "Add egg yolk and flavoring.",
+          "Freeze while stirring constantly."
+        ]
       }
     ],
     "Typical_Meal_Time": "1:00 PM - 2:00 PM",
@@ -1163,109 +1339,109 @@
     "Dishes": [
       {
         "Name": "Sushi",
-        "Imagen": "https://t4.ftcdn.net/jpg/01/60/77/63/240_F_160776300_2VfVdDN1wC8JuawVMiMOte0vSOF8xVxp.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/01/60/77/63/240_F_160776300_2VfVdDN1wC8JuawVMiMOte0vSOF8xVxp.jpg",
         "Ingredients": "Sushi rice (approximately 150-200 grs. per diner), Rice vinegar, Nori seaweed sheets, Soy sauce, Wasabi, Fish filling: salmon/tuna/surimi sticks/cooked shrimp/mackerel… (approximately 100-150 gr. per diner), Vegetable-fruit filling: cucumber/carrot/avocado/mango…, It is not an ingredient in itself, but we need a bamboo mat as material to roll the sushi rolls",
         "Recipe": "The first thing we will do is put the rice in a strainer and rinse it several times with very cold water, until it comes out clear, to remove all the starch. When it is ready, we boil it using the same amount of water as rice. First, we put the rice on medium heat for a couple of minutes and then we lower the heat to minimum and let it boil for 10 minutes. It is important that the pot is covered throughout the cooking process. After this time, we remove the pot from the heat and let the rice rest, uncovered, for another 15 minutes. While the rice rests, we prepare the sushi-zu, which is the vinegar dressing that we will add later. The mixture is made up of rice vinegar, sugar and salt, in a proportion of 5:2:1, that is, for every five parts of vinegar, we put two of sugar and one of salt. We need sushi-zu in a ratio of 1:5, that is, one part of seasoning for every five parts of dry rice that we have boiled. To prepare it, we heat the vinegar slightly in a saucepan, dissolve the sugar and salt in it and let it cool.Once the rice and the mixture are ready, we spread the boiled rice on a tray or container, preferably made of wood, and mix it with the seasoning that we have made using a wooden paddle. While we mix it, we fan the rice so that it is at room temperature. To prepare the filling, we cut the Ingredients that we have chosen into thin longitudinal strips that are as similar as possible. The fish can be raw (preferably previously frozen for safety), marinated, or semi-cooked, to taste, and the vegetables are usually added raw. Once we have the rice seasoned on one side, and the filling on the other, it is time to assemble the rolls. To make the rolls, spread the bamboo mat on a flat surface and cover it with plastic wrap. Place a sheet of nori on top with the shiniest side facing down and the stripes perpendicular to you. With your hands moistened with water, take rice and spread it evenly, creating a layer of rice about a centimetre thick and leaving a centimetre gap at the top edge of the nori (the area furthest from you). Once the base is prepared, place the filling in the centre of the bottom of the nori. As a variation, if you want to make a sushi roll with rice on the outside (uramaki) and coated with sesame seeds, make the filling in another way: with the rice placed on the nori, turn it over and put the filling directly on the seaweed. homemade-sushi-mat To form the roll, with a quick movement, take the bottom part of the mat and wrap the Ingredients and rice in it, making a roll, while pressing lightly. The roll will reach the space of seaweed that we have left without rice, and it is there where we seal it to the roll by moistening it a little. Once this is done, we cut the roll in one firm stroke into 6-8 portions with a very sharp and slightly wet knife, so as not to break it. We prepare the soy sauce and wasabi to season and moisten the pieces, and the ginger if we want to change from one flavor to another"
       },
       {
         "Name": "Ramen",
-        "Imagen": "https://t3.ftcdn.net/jpg/09/52/63/34/240_F_952633423_bvxt62bnyFfFuGjhxr10RPYVctJRmWHx.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/09/52/63/34/240_F_952633423_bvxt62bnyFfFuGjhxr10RPYVctJRmWHx.jpg",
         "Ingredients": "1 Leek (green part only), 1 Small Onion (or 1/2 large), 4 Slices of fresh ginger, 1/2 Carrot, 4 Cloves of garlic, 2 Eggs, 1 Pork rib (can be another part), Rice noodles (can be others), 1 Glass of Soy sauce, 1 Tbsp. of sake (I: vodka), 3 Tbsp. of mirin (I: sweet white wine), 2 Tsp. of sugar, 1 Green onion, Salt",
         "Recipe": "Separate the pork rib from the bone. Put the bone in a pot with boiling water. When it changes color, remove it and wash it with cold water. Place the pork rib bone, the leek (reserve 1 of the leaves), 3 crushed garlic cloves, 3 slices of ginger, the onion and the carrot in a pot with water. Add salt. Boil for 1 hour on low heat. Brown the pork rib (the boneless part) in a pan, on both sides. Once browned, add it to the pot and leave it for 10 minutes.Boil the 2 eggs in water with a splash of vinegar. Leave for 6 minutes in total… no more than that! Cool and peel. Put the soy sauce, mirin, sugar and sake in a separate pot. Add the crushed garlic clove, the slice of ginger and the leek leaf that we had reserved. Cook over low heat and turn off when it starts to boil. Marinate the pork and the whole, peeled eggs in this sauce for at least 1/2 hour. Cook the pasta as indicated on the package. Serve: place 3-4 tablespoons of the soy sauce from the marinade on the plate. Add the portion of noodles in the center and the soup broth until half the plate is filled. Place the pork, cut into thin strips, on one side. On the other, place an egg cut in half (the yolk should be almost liquid). Sprinkle with the green onion, cut very finely and in chamfers."
       },
       {
         "Name": "Tempura",
-        "Imagen": "https://t3.ftcdn.net/jpg/04/90/45/20/240_F_490452030_SX32SiO4ytYvzCq2HDvnRpmpGfdMnjfD.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/04/90/45/20/240_F_490452030_SX32SiO4ytYvzCq2HDvnRpmpGfdMnjfD.jpg",
         "Ingredients": "500 gr of medium or large shrimp, peeled and cleaned. 1 cup of wheat flour. 1 cup of cold water. 1 egg. 1 teaspoon of baking powder. 1/2 teaspoon of salt. Vegetable oil for frying.",
         "Recipe": "To start, mix the flour, baking powder, and salt in a bowl and set aside. Meanwhile, in another bowl, beat the egg and add the cold water, then add the flour mixture. Let it sit for 10 to 15 minutes. Separately, heat the oil in a frying pan. Once it is very hot, dip the shrimp in the tempura mixture and cook them in the pan for 2 to 3 minutes or until they are golden and crispy. Finally, drain the shrimp on absorbent paper to remove excess oil and serve. You can accompany them with rice and a mayonnaise and chipotle dressing."
       },
       {
         "Name": "Udon",
-        "Imagen": "https://t4.ftcdn.net/jpg/00/34/13/99/240_F_34139906_hLSOPvRHepAVzlIzVkh2p8NlLhpuAolh.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/00/34/13/99/240_F_34139906_hLSOPvRHepAVzlIzVkh2p8NlLhpuAolh.jpg",
         "Ingredients": "4 tablespoons soy sauce, 2 tablespoons mirin wine, 2 tablespoons sake, 1 tablespoon brown sugar, 400g pre-cooked Udon noodles, 1 liter chicken broth. You can make it with chicken broth powder",
         "Recipe": "In a saucepan, mix the soy sauce, mirin, sake and sugar. Add the Ingredients corresponding to the option you have chosen. Bring the mixture to a boil over medium heat and boil for 20 minutes (2 minutes if you have chosen option 1). Remove the shiitake mushrooms or kombu seaweed with a slotted spoon. Taste the broth and adjust the seasoning. Add the pre-cooked udon noodles and boil according to the manufacturer's instructions, usually about 3 minutes. Serve in individual bowls and garnish with a sprinkle of finely chopped spring onion."
       },
       {
         "Name": "Soba",
-        "Imagen": "https://t3.ftcdn.net/jpg/01/22/58/70/240_F_122587028_5zXSjGua4bZPWAD5XBKTR4SJmHhvXKES.jpg",
-        "Ingredients": "1.5 liters of water, 1 large piece of kombu about 15 to 18 grams, 2 dried shiitake mushrooms, 300 grams of soba noodles, 175 ml of soy sauce, 120 ml of mirin, 1 tablespoon of sugar, 1 tablespoon of sesame seeds optional, 2 chopped scallions (optional)",
+        "Image": "https://t3.ftcdn.net/jpg/01/22/58/70/240_F_122587028_5zXSjGua4bZPWAD5XBKTR4SJmHhvXKES.jpg",
+        "Ingredients": "1.5 liters of water, 1 large piece of kombu about 15 – 18 grams, 2 dried shiitake mushrooms, 300 grams of soba noodles, 175 ml of soy sauce, 120 ml of mirin, 1 tablespoon of sugar, 1 tablespoon of sesame seeds optional, 2 chopped scallions (optional)",
         "Recipe": "The night before, put the water, kombu, and mushrooms in a large bowl. Cover and refrigerate until you are ready to make the soup. Bring a pot of water to a boil and add the noodles. Boil according to product directions until al dente. Drain and rinse with cold water, gently scrubbing to remove starch. Drain again and set aside. Remove the kombu and mushrooms from the water and bring the broth to a boil. Add the soy sauce, mirin, and sugar and mix well to dissolve the sugar. Divide the soba into four bowls and ladle the broth over the top. Garnish with sesame seeds and scallions, if desired."
       },
       {
         "Name": "Miso Soup",
-        "Imagen": "https://t4.ftcdn.net/jpg/08/94/11/11/240_F_894111131_L5fvp0EKtHiqeQjn05W4CPDwf5KQngr9.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/08/94/11/11/240_F_894111131_L5fvp0EKtHiqeQjn05W4CPDwf5KQngr9.jpg",
         "Ingredients": "1 l water or dashi broth, 15 g dried wakame seaweed, 3 tablespoons miso, 200 g tofu, 50 g leek, 50 g spring onion, soba noodles (optional)",
         "Recipe": "We put the water in a pot and bring it to the boil. Once it starts to boil, we take a little water into a glass to dissolve the miso later. We put the wakame seaweed in the pot and let it cook for 5 minutes. Then we add the tofu cut into small cubes of approximately 1 cm and the vegetables in small pieces. We cook the soup for another 5 minutes We dissolve the miso in water and, when the soup is ready, we remove it from the heat and add the water with dissolved miso. Ready to serve. If you like it with soba noodles and optionally, you just have to follow the manufacturer's instructions to cook them. Once you have them, put a small amount in each bowl pouring the miso soup on top, in a similar way to when we make ramen soup at home."
       },
       {
         "Name": "Onigiri",
-        "Imagen": "https://t4.ftcdn.net/jpg/08/56/46/91/240_F_856469193_vECGgEYtNbVrqqXAR8xG0XzPVJ5fbZjl.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/08/56/46/91/240_F_856469193_vECGgEYtNbVrqqXAR8xG0XzPVJ5fbZjl.jpg",
         "Ingredients": "2 cups round grain rice (paella type), 2 and 1/2 cups water, 2 sheets of Nori seaweed, 1 teaspoon salt, 1/2 cup water, optional: toasted sesame seeds, Fillings: Steamed or grilled salmon, chopped. Tuna with a little mayonnaise. Crab sticks. You can add these fillings: scallions or pickled ginger, chopped very finely.",
         "Recipe": "Wash the rice with water in a strainer until the water runs clear. Put the water and rice in a saucepan. Then, bring to the boil at maximum heat until the boiling water is about to come out. Once you have reached this point, turn off the heat. If there is still water left, turn it to minimum heat for a little longer. Once the heat is off, let it rest for about 10 minutes. During the entire cooking and resting process of the rice, preferably the lid should not be removed. After 10 minutes have passed, remove the lid and let it rest for another 5 to 10 minutes. Once the rice has finished cooking, leave it in a bowl covered with a damp cloth so that it does not dry out until it cools. Meanwhile, heat the water and salt in a saucepan until it dissolves. When the salt water cools, wet your hands in it so that the rice does not stick to it when you work with it. Prepare the different types of fillings that you want to taste. To add the filling, put a good spoonful of rice on one hand. Put the filling in the center of it. Next, you will have to finish forming the ball, completely covering the filling. Finally, give it a triangular shape (with rounded corners). You must press the ball thoroughly so that it remains compact. Once this is done, place a small sheet of nori underneath, which will make it easier to handle."
       },
       {
         "Name": "Yakitori",
-        "Imagen": "https://t3.ftcdn.net/jpg/09/41/04/46/240_F_941044692_RG8kTP3fyCtrGRwrW5HNXaYtv73dMVJY.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/09/41/04/46/240_F_941044692_RG8kTP3fyCtrGRwrW5HNXaYtv73dMVJY.jpg",
         "Ingredients": "Boneless, skinless chicken thighs 5, Spring onion 3, Leek (for the sauce) 1, Soy sauce (for the sauce) 200 ml, Mirin or rice wine (for the sauce) 125 ml, Cooking sake (for the sauce) 125 ml, Brown sugar (for the sauce) 20 g, Sunflower oil for greasing the griddle, Skewers 8",
         "Recipe": "Cut the chicken into bite-sized pieces. Cut the spring onions, first lengthwise down the centre and then into pieces of about two or three centimetres. Thread onto skewers, alternating pieces of chicken and spring onion. Set aside. Prepare the teriyaki sauce. Cut the leek into large pieces and put them in a pot together with the sake, mirin, soy sauce and brown sugar. Cook over a low heat until the sauce thickens and reduces by half. Cooking on a griddle or grill: Heat a non-stick griddle or grill and brush with a little sunflower oil. Mark the skewers on all sides while brushing with the sauce. Turn them over so they cook on all sides. Serve hot, brushing each skewer with sauce just before serving."
       },
       {
         "Name": "Gyoza",
-        "Imagen": "https://t4.ftcdn.net/jpg/07/98/77/43/240_F_798774385_1K5bjfQCkZcyB44CBByBbOfIUzK9cR7C.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/07/98/77/43/240_F_798774385_1K5bjfQCkZcyB44CBByBbOfIUzK9cR7C.jpg",
         "Ingredients": "1 pack of Gyoza noodles (approx. 50 pieces), 400 g minced pork, 150 g Chinese cabbage, 50 g spring onion, 2 cloves minced garlic, 1 tablespoon grated ginger, 1 tablespoon soy sauce, 1 teaspoon salt, 1/2 teaspoon sugar, 1/2 tablespoon cornstarch, a little sesame oil, 2 tablespoons soy sauce, 1.5 tablespoons rice vinegar, a little sesame oil",
         "Recipe": "Chop the spring onion and the Chinese cabbage. Set them aside for later. Put the minced pork, garlic, ginger, soy sauce, salt, sugar, cornstarch, and sesame oil in a bowl and mix everything well until it becomes sticky. Add the spring onion and the Chinese cabbage and mix again. Cover with cling film and leave in the fridge for about 20 minutes. Filling the Gyozas: Take a piece of Gyoza dough and put a teaspoon of the filling in the centre. Wet the outside of the dough with your fingers, fold it in half and close it with your fingers. I make 3 folds on each side from the middle, although you can also start folding on one side and finish on the other. To finish, press the folds a little so they don't open. While we are doing the rest, we put them on a plate and cover them with a damp cloth so that they do not dry out. Grilling the Gyozas: In a frying pan, spread a splash of vegetable oil and place our gyozas. When they are toasted on the base, add a splash of sesame oil and add water to cover the entire bottom well. I also add a teaspoon of cornstarch to this water so that a crispy crust forms on the base. Cover the pan and let it cook until the water evaporates, it will take between 8 and 10 minutes. Once the water has evaporated from the pan, the gyozas will be toasted and crispy on the base and well cooked but softer on top, put them on a plate and they are ready to eat, accompany them with our sauce. Prepare the sauce: In a small bowl, mix the soy sauce, rice vinegar and a little sesame oil, stir well and it is ready."
       },
       {
         "Name": "Tonkatsu",
-        "Imagen": "https://t3.ftcdn.net/jpg/08/41/63/46/240_F_841634663_THxQaIhH7gj59K1IkUvchuiGqOxopWoz.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/08/41/63/46/240_F_841634663_THxQaIhH7gj59K1IkUvchuiGqOxopWoz.jpg",
         "Ingredients": "2 pork chops, 1 egg, 50 g. Panko, 2 tablespoons of wheat flour, Vegetable oil, A little salt and black pepper, 2.5 tablespoons of Worcestershire sauce (Perrins sauce), 2 tablespoons of ketchup, 2 tablespoons of oyster sauce, 1 teaspoon of white sugar, 100 g. of cabbage, Japanese rice «Gohan»",
         "Recipe": "We make some small cuts between the fatty part and the meat of the pork chop. (The meat and the fat have different elasticity, with the cuts we will avoid it deforming when frying). With the help of a hammer to tenderize meat or with the back of the knife we ​​give it a few blows so that it is more tender. We salt and pepper both sides and it is ready to bread. Coat the chop We flour the chop on both sides. We remove the excess flour and bathe it with the egg. We coat it well with Panko. When it is well breaded, we remove the excess Panko and it is ready to fry. Fry: In a saucepan with plenty of vegetable oil over medium heat we fry it for 2 to 2 and a half minutes on each side. When it is golden brown we remove it to absorbent paper. Prepare the Tonkatsu sauce:In a bowl we add the Worcestershire sauce (Perrins sauce), the oyster sauce, the ketchup and the white sugar. Mix well and it is ready to use. Serve: Cut the chop into pieces, place it on a plate accompanied by the cabbage that we have cut and serve with the Tonkatsu sauce."
       },
       {
         "Name": "Teriyaki",
-        "Imagen": "https://t3.ftcdn.net/jpg/08/42/69/94/240_F_842699416_omBb5oboT8LZr7TACyHwyBu8Cyv9fZaQ.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/08/42/69/94/240_F_842699416_omBb5oboT8LZr7TACyHwyBu8Cyv9fZaQ.jpg",
         "Ingredients": "The cut of chicken you prefer: we recommend boneless, skinless thighs, but it must be free-range, quality-fed chicken. Allow two pieces per person Onion or spring onion Sunflower oil. If you use olive oil, choose a mild one Toasted sesame seeds Soy sauce Mirin Sake Sugar Long-grain rice",
         "Recipe": "We'll start by preparing the teriyaki sauce. In a saucepan, put 100 ml of soy sauce, 45 ml of sake, 40 ml of mirin and two tablespoons of sugar. Reduce the sauce over low heat until it has a consistency similar to that of liquid caramel. If it doesn't stay thick, you can add corn starch to help. If you like it sweeter you can always add more sugar or mirin. With this you would have the basic sauce, but you can customize it by adding ground ginger, lemon or orange zest or finely chopped garlic. And what happens if I can't find mirin or sake? You can substitute them with local Ingredients, but the result will not be exactly the same. You can replace the sake with semi-dry white wine and the mirin with a sweet sherry. If you only have sake, add a little more sugar and that's it. Once the sauce is prepared, set aside. In a saucepan with water and salt, boil the rice for the garnish. Use basmati rice or steamed rice to make it looser. Cover the bottom of a frying pan with sunflower oil and heat over high heat. Cut the onion or spring onion into julienne strips and add to the pan when the oil is very hot. Cut the thighs into medium pieces and add them to the onion so they brown on the outside. When the chicken has that golden colour that we all like, add the teriyaki sauce to the pan and cook over medium heat for 15 minutes. You will see how the sauce sticks to the meat, giving it an irresistible shine. Serve the chicken with its rice garnish and, if you want, decorate with some toasted sesame seeds."
       },
       {
         "Name": "Sashimi",
-        "Imagen": "https://t4.ftcdn.net/jpg/02/10/95/33/240_F_210953307_D9DWbMLUObXTkUmpxle2Cygn8CaGYEgc.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/02/10/95/33/240_F_210953307_D9DWbMLUObXTkUmpxle2Cygn8CaGYEgc.jpg",
         "Ingredients": "300 g fresh salmon fillet, defrosted 20 ml soy sauce or ponzu sauce 5 g pickled ginger  1 teaspoon wasabi paste",
         "Recipe": "For this type of preparation based on raw fish, the fish must have been previously frozen as indicated in the introduction and defrosted in the refrigerator. In this case, 300 g of salmon. Once defrosted, the skin is removed from the fish and the edges are trimmed so that the fillet is as rectangular as possible. The next step is to cut the salmon into slices about 3 mm thick. To do this, sharpen a knife very well and cut each slice of salmon in a single movement, sliding the knife gently forward. Proceed in the same way with each slice until you have finished cutting the entire salmon fillet. To serve the salmon, present it on a platter or plate, accompanied by 20 ml of soy sauce or ponzu sauce, 5 g of pickled ginger and 1 teaspoon of wasabi paste."
       },
       {
         "Name": "Mochi",
-        "Imagen": "https://t3.ftcdn.net/jpg/00/99/38/84/240_F_99388471_uX5hXVCioiJkP0HAvWnknecRz79oW7eH.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/00/99/38/84/240_F_99388471_uX5hXVCioiJkP0HAvWnknecRz79oW7eH.jpg",
         "Ingredients": "filling:80-100mL of whipping cream, 1cs of sugar (15g), 4-5 strawberries dough: 5cs of glutinous rice flour (75g)2cs of sugar (30g) 90-100mL of water approx.Colorant (optional)Fine corn flour (to flour the dough)",
         "Recipe": "First, cut about 4-5 strawberries into small cubes. Next, put about 80-100mL of cold whipping cream in a bowl and add 1 tbsp of sugar. Beat well until you see that the cream is whipped and no longer has a liquid consistency (if you do it with a whisk mixer it will be much faster and easier). Add the strawberries you just cut to the bowl of cream and mix gently. Be careful not to mix too much so that the cream does not lose its creaminess. Take the filling and try to make 6-8 small balls with the help of a couple of spoons. Put these strawberry and cream balls in the freezer for 1 hour so that they are well frozen.When the filling has been in the freezer for almost 1 hour, you can start making the mochi dough. Although it may seem difficult at first glance, making the mochi dough is not complicated at all. Add 5 tbsp of glutinous rice flour and 2 tbsp of sugar to a bowl. Add water little by little (about 90-100mL in total) while stirring with a spoon until you get a consistency similar to that of liquid yogurt. Next, to get the typical consistency of this Japanese sweet, you will have to heat the dough in the microwave in intervals (put the bowl in the microwave with a plate on top to cover it) and mix it between intervals, like this: Heat the dough for 1 minute and stir well for 1 minute.Heat the dough for 1 more minute and mix it again for another minute. Heat the dough for 30 seconds and stir well again. Heat the dough for another 30 seconds, mix again and it should be ready.To make these strawberry mochis, wait for the dough to cool a little, flour it (with cornstarch or fine corn flour) and cut it into 6-8 pieces (depending on the size you want them to be). Flatten each piece of dough and try to make them into a circle.  Take the strawberry and cream balls out of the freezer, flour the dough with cornstarch and fill each piece of dough with one of these balls.Join all the parts of the mochi dough in the center until it is well closed.  Do this with all the pieces of dough and all the balls until you have created all the Japanese mochis. Leave them at room temperature so that the mochi filling defrosts and becomes creamy."
       },
       {
         "Name": "Dorayaki",
-        "Imagen": "https://t4.ftcdn.net/jpg/10/72/65/79/240_F_1072657950_VwQyHiRPGHKmNAhic0gzDtteFBi2RMOU.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/10/72/65/79/240_F_1072657950_VwQyHiRPGHKmNAhic0gzDtteFBi2RMOU.jpg",
         "Ingredients": "Eggs  2 Sugar 50g Honey 15ml Pastry flour 85g Salt a pinch  chemical yeast 2ml Water  40ml  Extra virgin olive oil Anko or chocolate cream to fill",
         "Recipe": "Arrange the eggs in a bowl with the sugar and honey. Beat with a whisk until it doubles or almost triples in volume, and has a pale color and thick texture. Sift the flour with the yeast and a light pinch of salt on top. Mix with gentle, enveloping movements. Add the water and cover Let it rest for at least 15 minutes at room temperature. Prepare a griddle or good non-stick frying pan by lightly greasing it with sunflower oil or melted butter. Heat over medium heat and add ladles of dough, shaping it into a circular shape with the back of a spoon. Cook until bubbles appear, slide a spatula underneath and turn over. Cook until golden brown and remove. Continue until the dough is finished. Spread half of the pancakes with anko, chocolate or cream and form the dorayakis by joining with the rest."
       },
       {
         "Name": "Taiyaki",
-        "Imagen": "https://t4.ftcdn.net/jpg/00/83/64/47/240_F_83644798_cStDgusAc5dutp4u9kwa2hNgazJTU8Ex.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/00/83/64/47/240_F_83644798_cStDgusAc5dutp4u9kwa2hNgazJTU8Ex.jpg",
         "Ingredients": "2 cups of wheat, flour 1 teaspoon baking soda or baking soda,1/2 teaspoon salt  2 tablespoons of sugar 1 egg 1 or 1+1/2 cup of water (depending on the flour)    180g azuki paste, anko   Vegetable oil Fish Shape Taiyaki Mold",
         "Recipe": "Mix the flour, salt, sugar and baking soda by sifting them into a bowl. Make a hole in the middle and add the previously beaten egg along with the water, mixing it little by little, it should have a creamy texture, neither too liquid nor too pasty. Heat the taiyaki mold griddle a little. With a brush spread a little oil on the mold. Pour the mixed Ingredients into the Taiyaki mold, filling it approximately halfway. Put a good spoonful of anko paste or the filling you prefer, on the mixture poured into the mold. Finish by covering with a little more of the previous mixture.  Close the mold and heat it on both sides continuously at intervals until it is cooked for a few minutes, it should be golden brown. let it cool"
       },
       {
         "Name": "Oden",
-        "Imagen": "https://t3.ftcdn.net/jpg/01/23/10/02/240_F_123100202_6hRc4UeLSWofgaUXQkZVp49WEbYPNJYK.jpg",
+        "Image": "https://t3.ftcdn.net/jpg/01/23/10/02/240_F_123100202_6hRc4UeLSWofgaUXQkZVp49WEbYPNJYK.jpg",
         "Ingredients": "1 large piece of dried kombu seaweed 1 medium daikon radish, peeled and cut into 1-inch slices 3 large carrots, peeled and cut into 1-inch slices 3 large potatoes, peeled and cut into 1-inch slices 12 cups water or broth, as needed  1 hard boiled egg per person 1 block firm tofu, cut into 1-inch cubes ¾ cup mirin ¾ cup soy sauce, low sodium  ¼ cup sugar Dry mustard powder, such as Colman's, or the Asian market equivalent (optional)",
         "Recipe": "Place the kombu in a large pot. Add enough water to cover it completely. Let soak for at least 20 minutes. After 20 minutes, heat the pot over high heat until almost boiling. Lower the heat to medium-low heat and cook.Add the daikon and carrots to the pot, adding more water to cover. Let the stew cook until the vegetables are soft, about 1 hour. By then the kombu will be very soft. Add a little water to the mustard powder to create a paste. Set aside. Add the potatoes and cook for 20 minutes. Add the hard-boiled eggs, tofu, mirin, soy sauce, and sugar. Cook for 20 minutes. Cut the kombu, you should be able to do this inside the pot with a spatula. Add more soy sauce or sugar to taste, if needed. Serve the stew with a teaspoon of mustard (it's spicy) to mix with the broth if desired. Eat with hot rice, or sake."
       },
       {
         "Name": "Shabu-shabu",
-        "Imagen": "https://t4.ftcdn.net/jpg/03/31/40/69/240_F_331406907_jp0qMPC71WwyUtwhMj9PqVLIn1yU1eLa.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/03/31/40/69/240_F_331406907_jp0qMPC71WwyUtwhMj9PqVLIn1yU1eLa.jpg",
         "Ingredients": "250 g beef fillets 120 g shiitake mushrooms 120 g enoki mushrooms 16 leaves of bok choy 2 leeks 120g tofu 90 g dried konbu seaweed 500 ml of water Dry ramen or udon type noodles (optional) 500 g of rice",
         "Recipe": "First we prepare the broth. To do this, we put the water in a saucepan with the konbu seaweed over medium heat for 10 minutes. When it starts to boil, remove the seaweed from the water and let it cook for a couple more minutes. After this time, we strain the water to eliminate any remains of algae. Meanwhile, we cook the rice in another pot to have it ready. We prepare the Ingredients by washing the mushrooms and vegetables well to remove any remaining dirt, and then cutting them into strips of the same size. We cut the tofu into small cubes and the Chinese cabbage into strips. We bring a stove to the center of the table and heat the konbu seaweed broth until it comes to a boil. Each diner is served a bowl with cooked rice and another with ponzu sauce. The diners cook the Ingredients they want in the broth and, once they are ready, they dip them in ponzu sauce. Ready to taste."
       },
       {
         "Name": "Sukiyaki",
-        "Imagen": "https://t4.ftcdn.net/jpg/01/30/24/57/240_F_130245786_5xQrEIQ5f3shbstTwsQUBDgA8D1BAHH5.jpg",
+        "Image": "https://t4.ftcdn.net/jpg/01/30/24/57/240_F_130245786_5xQrEIQ5f3shbstTwsQUBDgA8D1BAHH5.jpg",
         "Ingredients": "200 grams of beef cut very thin (for example for carpaccio) 1 package of yaki-dofu tofu Shiitake mushrooms enoki mushrooms Spring onion or green onion Leeks Shirataki noodles 1 package fresh udon noodles 1/3 cup soy sauce 3 tablespoons sake  4 tablespoons of sugar  3/4 cup dashi broth  2 bowls of Japanese white rice boiled and ready to serve 2 eggs",
         "Recipe": "Cut the leeks and chives lengthwise Cut the yaki-dofu into squares. Separate the meat slices so you can easily manipulate them with chopsticks. Next, mix the soy sauce, sake, sugar and dashi broth in the pot. You can make more broth if you wish, if you see that the quantity has decreased a lot and you still have food left.  On the table, place the dish with all the Ingredients and the stove with the broth heating up. Beat one raw egg per person and serve in a bowl. In another bowl, serve boiled rice to accompany. Once the broth boils, lower the heat and add some vegetable Ingredients (but not the meat). Let them cook over medium heat and when you think they are ready, take them out with chopsticks and dip them in beaten egg before tasting.  The meat cooks in just a few seconds, so you shouldn't leave it in the broth for too long. If you do, it will be hard and won't be as tasty. When you take it out, also dip it in the egg before eating.  The sukiyaki is enjoyed calmly at the table itself, accompanied by a bowl of white rice. The idea is to take Ingredients from the pot as you want to eat. And add more Ingredients when the pot starts to get empty. "
       }

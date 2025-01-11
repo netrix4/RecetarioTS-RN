@@ -6,10 +6,8 @@ interface IPropsDish {
   itemDish: {
     Name: string;
     Image: string;
-    // Ingredients: string,
-    // Ingredients: string[],
-    Ingredients: any;
-    Recipe: string;
+    Ingredients: string[],
+    Recipe: string[];
   };
   onDishPress: () => void;
 }

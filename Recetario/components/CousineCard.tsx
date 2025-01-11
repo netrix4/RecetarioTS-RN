@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, useNavigation } from "expo-router";
+// import { Link, useNavigation } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
 import { getRandomColor } from "@/utils/utils";
+import { useNavigation } from "@react-navigation/native";
 
 interface IProps {
   // itemCousine: {
@@ -11,21 +12,31 @@ interface IProps {
   // };
   itemCousine: {
     key: string;
-    info: any;
+    info: {
+      Title: string;
+      Emoji: string;
+      Dishes:{
+        Name: string;
+        Image: string;
+        // Ingredients: string;
+        Ingredients: string[],
+        Recipe: string[];
+      }[];
+    }
   };
 }
 
 const CousineCard: React.FC<IProps> = ({ itemCousine }) => {
-  const navigation = useNavigation();
+  const navigation = useNavigation()
 
   return (
     <TouchableOpacity
       style={[styles.mainCard, { backgroundColor: getRandomColor() }]}
       onPress={() => {
-        const information = itemCousine.info
-        console.log('information', itemCousine.info.Dishes);
-        navigation.navigate('DishesMenu', {information})
+        const typicalDishes = itemCousine.info.Dishes
+        // const information = JSON.stringify(itemCousine.info)
         // navigation.navigate("DishesMenu");
+        navigation.navigate("DishesMenu", {typicalDishes});
       }}
     >
       {/* <Link
@@ -40,7 +51,7 @@ const CousineCard: React.FC<IProps> = ({ itemCousine }) => {
       {/* <Text style={styles.cardTitle}>{itemCousine.Title}</Text>
       <Text style={styles.cardParraph}>{itemCousine.Emoji}</Text> */}
 
-      <Text style={styles.cardTitle}>{itemCousine.key}</Text>
+      <Text style={styles.cardTitle}>{itemCousine.info.Title}</Text>
       <Text style={styles.cardParraph}>{itemCousine.info.Emoji}</Text>
 
 

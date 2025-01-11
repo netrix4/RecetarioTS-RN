@@ -1,0 +1,84 @@
+{
+  "Mexican": {
+    "Title": "Mexico",
+    "Emoji": "🌮",
+    "Dishes": [
+      {
+        "Name": "Chilaquiles",
+        "Image": "https://cdn7.kiwilimon.com/recetaImagen/28595/28780.jpg",
+        "Ingredients": [
+          "Corn tortillas",
+          "Red sauce (or green sauce)"
+          
+        ],
+        "Recipe": [
+          "1. Cut the tortillas into small strips and fry them until crispy.",
+          "2. In a separate pan, heat the red or green sauce (depending on your preference)."
+        ]
+      },
+      {
+        "Name": "Tacos",
+        "Image": "https://encrypted-tbn0.gstatic.com/Images?q=tbn:ANd9GcSwn3PhD_2zUda2dtLYfwU2xkHl9cWFt4pvzg&s",
+        "Ingredients": [
+          "Corn tortillas",
+          "Choice of meat (beef, pork, chicken, or vegetarian options)"
+        ],
+        "Recipe": [
+          "1. Cook the meat of your choice (grill, sauté, or slow-cook until tender).",
+          "2. Heat the tortillas on a comal or skillet."
+        ]
+      }
+    ]
+  },
+  "Italian": {
+    "Title": "Italy",
+    "Emoji": "🍝",
+    "Dishes": [
+      {
+        "Name": "Pasta",
+        "Image": "https://media.istockphoto.com/id/1220762221/es/foto/pasta-penne-con-salsa-de-tomate-albahaca-fresca-tomates-asados-y-parmesano-sobre-el-fondo.jpg?s=1024x1024&w=is&k=20&c=WdX1RwYXrLqOpwFf1Z27A5RQ9LNn_lXEBDoCtZjmK4A=",
+        "Ingredients": "Flour, eggs, salt, water.",
+        "Recipe": "Mix flour, eggs, and a pinch of salt to make a dough. Roll it out and cut into desired shapes (spaghetti, fettuccine, etc.). Boil in salted water until al dente and serve with sauce of choice."
+      },
+      {
+        "Name": "Pizza",
+        "Image": "https://Images.pexels.com/photos/13730502/pexels-photo-13730502.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "Ingredients": "Flour, water, yeast, salt, olive oil, tomato sauce, mozzarella, basil.",
+        "Recipe": "For the dough, mix flour, water, yeast, salt, and some olive oil. Let the dough rise until it doubles in size. Roll out the dough, add tomato sauce, mozzarella, and basil. Bake at 220°C for 10-15 minutes."
+      }
+      
+    ],
+    "Typical_Meal_Time": "1:00 PM - 2:00 PM",
+    "Popular_Ingredients": ["Wheat", "Tomatoes", "Basil"]
+  },
+  "Argentinian": {
+    "Title": "Argentina",
+    "Emoji": "🥟",
+    "Dishes": [
+      {
+        "Name": "Asado",
+        "Image": "https://t3.ftcdn.net/jpg/00/91/21/94/240_F_91219420_atTWGlR2XlNaJf3Bk0XkOHkYl7YpGHSg.jpg",
+        "Ingredients": [
+          "1 beef rib rack",
+          "1 flank steak"
+        ],
+        "Recipe": [
+          "1. Light the fire with charcoal or wood (preferably quebracho or espinillo) and let it create a good bed of coals.",
+          "2. While the grill heats up, season the meat with coarse salt on both sides and let it rest for a few minutes."
+        ]
+      },
+      {
+        "Name": "Empanadas",
+        "Image": "https://t4.ftcdn.net/jpg/00/43/09/27/240_F_43092790_oob8IIY4UnlCc4b0FlL0HbaqaxPQd6UH.jpg",
+        "Ingredients": [
+          "500 grams of ground beef (preferably shoulder or top round)",
+          "2 large onions"
+        ],
+        "Recipe": [
+          "1. In a large skillet, heat the oil over medium heat and add the chopped onions and diced red bell pepper. Sauté until soft.",
+          "2. Add the ground beef and cook until browned and fully cooked."
+        ]
+      }
+    ]
+  }
+}

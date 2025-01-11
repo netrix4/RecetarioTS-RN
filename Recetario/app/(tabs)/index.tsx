@@ -3,46 +3,11 @@ import { useEffect, useState } from "react";
 
 import { SafeAreaView, StatusBar, StyleSheet, View, FlatList } from "react-native";
 
-const cousines = [
-  {
-    Title: "Mexico",
-    Emoji: "🌮",
-    Dishes: ["Primero", "Segundo", "Tercero"],
-  },
-  {
-    Title: "Italy",
-    Emoji: "🍝",
-    Dishes: [],
-  },
-  {
-    Title: "Argentina",
-    Emoji: "🥟",
-    Dishes: [],
-  },
-  {
-    Title: "United States",
-    Emoji: "🍔🍟",
-    Dishes: [],
-  },
-  {
-    Title: "Japan",
-    Emoji: "🍣",
-    Dishes: [],
-  },
-  {
-    Title: "France",
-    Emoji: "🫕",
-    Dishes: [],
-  },
-];
-
-
 export default function HomeScreen() {
   const [countriesData, setCountriesData] = useState<{key:string, info: any}[]>([])
 
   useEffect(()=>{
     const FetchData = () => {
-      // const cousines2 = require('@/utils/cuosines.json');
       const cousines2 = require('@/utils/Cousines.json');
       setCountriesData(
         Object.keys(cousines2).map((key) => ({ key: key, info: cousines2[key] }))
@@ -51,9 +16,6 @@ export default function HomeScreen() {
     
     FetchData();
   },[])
-
-  // console.log(countriesData);
-  // console.log(countriesData[1]);
 
   return (
     <SafeAreaView>
